@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-color:snow
+}
+.main {
+  flex: 0.5;
+}
+
+.logo {
+  float: right;
+}
+
+.right {
+  float: left;
+}
+
+.left {
+  float: right;
+}
+
+.card {
+  width: 45%;
+}
+
+h1 {
+  font-size: 5rem;
+  text-decoration: underline;
+}
+.C {
+  color: orange;
+}
+.tile-image {
+  height: 202px;
+  float: left;
+  margin-right: 50px;
+}
+
+footer {
+  text-align: right;
+  color: orange;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+h1 { 
+  font-family:cursive
+}
+
+h2 {
+  color: orange;
+  text-decoration: underline;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
